@@ -1,0 +1,74 @@
+     <aside id="slide-out" class="side-nav white fixed">
+                <div class="side-nav-wrapper">
+                    <div class="sidebar-profile">
+                        <div class="sidebar-profile-image">
+                            <img src="../assets/images/profile-image.png" class="circle" alt="">
+                        </div>
+                        <div class="sidebar-profile-info">
+
+                                <p>Admin</p>
+
+
+                        </div>
+                    </div>
+
+                <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion">
+                    <li class="no-padding"><a class="waves-effect waves-grey" href="dashboard.php"><i class="material-icons">settings_input_svideo</i>Dashboard</a></li>
+                    <li class="no-padding">
+                        <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">apps</i>Subunit<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="adddepartment.php">Add Department</a></li>
+                                <li><a href="managedepartments.php">Manage Department</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="no-padding">
+                        <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">code</i>Staff Position<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="addleavetype.php">Add Staff Position</a></li>
+                                <li><a href="manageleavetype.php">Manage Staff Position</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="no-padding">
+                        <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">account_box</i>Staff<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="addemployee.php">Add Staff</a></li>
+                                <li><a href="manageemployee.php">Manage Staff</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+   <li class="no-padding">
+                        <a class="collapsible-header waves-effect waves-grey"><i class="material-icons">desktop_windows</i>Memo<i class="nav-drop-icon material-icons">keyboard_arrow_right</i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="pending-leavehistory.php">Create Memo</a></li>
+                                <li><a href="approvedleave-history.php">View New Memo</a></li>
+                                  <li><a href="notapproved-leaves.php">View Past Memo</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+
+
+
+                        <li class="no-padding">
+                                <a class="waves-effect waves-grey" href="logout.php"><i class="material-icons">exit_to_app</i>Sign Out</a>
+                            </li>
+
+
+
+
+                </ul>
+                   <div class="footer">
+                    <p class="copyright"><a href="">Computer Science, U.I. </a> © 2020</p>
+
+                </div>
+                </div>
+            </aside>
